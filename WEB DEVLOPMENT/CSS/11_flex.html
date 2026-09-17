@@ -1,0 +1,78 @@
+<!-- 
+    aims of flex is providing a better way to layout
+    align align and distribue space among in a container2
+    
+    flex-direction - row or columno or row-reverse or column-reverse
+
+               flex properties for parent (flex container)
+                 1. flex-wrap
+                 2.justify-content
+                 3.align-item
+                 4.align-content
+
+                flex properties for children (flex item)
+                 1.order
+                 2.align-self
+                 3.flex-grow
+                 4.flex-shrink
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container {
+            display: flex;
+            flex: content;
+            flex-direction: row;
+        }
+
+        .box {
+
+            background-color: red;
+            border: 2px solid black;
+            width: 120px;
+            height: 100px;
+        }
+
+        .box1 {
+            border: 3px solid red;
+            order: 2;
+            background-color: green;
+        }
+
+        .box2 {
+            order: -1;
+            background-color: yellow;
+        }
+
+        .box3 {
+            order: 0;
+            background-color: chartreuse;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">
+            box 1
+        </div>
+        <div class="box box2"> box 2</div>
+        <div class="box box3">box 3</div>
+    </div>
+
+</body>
+
+</html>

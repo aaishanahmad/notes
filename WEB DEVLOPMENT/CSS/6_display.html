@@ -1,0 +1,76 @@
+<!--
+    display:block; // Take full space avaliable in width and leaves a newline before and after the elment
+            inline; //take only the space required by the element . no linebraks before and after.
+            inline-block;// similar to inline but setting width, height , top/bottom margin and padding is allowed .
+            none;//whitin dsplay:none the element is removed from the document flow, its space is not blocked.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            height: 300px;
+            width :270px;
+            background-color:red;
+            display:inline-block;
+            padding:20px;
+            margin: 20px;
+            
+
+
+        }
+
+        .box2{
+            height: 300px;
+            width :270px;
+            background-color: blue;
+            display:inline-block;
+            padding:20px;
+            margin: 20px;
+            
+
+        }
+        .box3{
+            background-color:green;
+            height: 300px;
+            width :270px;
+            display:inline-block;
+            padding:20px;
+            margin: 20px;
+    
+
+        }
+        p{
+            color:white;
+            padding:0;
+            margin:0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="box1">
+     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, minus ratione adipisci at voluptate vitae doloremque. Adipisci molestiae amet praesentium iste dolor eos velit eius doloremque dolores vitae! Nam ex iste laboriosam eaque dolores quaerat! Ea placeat deserunt repudiandae explicabo accusamus voluptas magni tempora.</P>
+    </div>
+    <div class="box2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis nisi ab corrupti enim? Officiis cumque laboriosam sapiente blanditiis eveniet? Quis corrupti eos totam enim aspernatur aliquid voluptates. Odit, nisi fuga facilis delectus saepe, voluptate voluptatibus perspiciatis doloremque amet ea quaerat, eaque deleniti distinctio.</p>
+    </div>
+    <div class="box3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur ullam, amet facilis nostrum, quasi officia nobis minima obcaecati ea a, aut vel error in! Quos adipisci a dignissimos, mollitia nulla laborum beatae alias omnis nesciunt consequuntur ut corrupti nemo qui. Nulla nostrum illo perferendis?</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+#list 
+
+cities : !!seq
+ - mumbie 
+ - delhi
+ - kolkata 
+ -     #empty called sparse seq
+ - faridabaad 
+
+#or cities : [mibie , delhi]
+
+#nested like 
+ 
+- yo
+ - yo1
+ - yo2
+ - yo3
+- go
+ - go1
+ - go2
+ - go3
+
+
+#key: value pair are called maps
+
+!!map
+
+#nested mapping
+
+name :
+ sur: md
+ firstName : ahsan
+ lastName : ahmad
+
+
+
+#pairs
+
+pairExample : !!pairs
+ - job : student
+ - job : teacher
+ #look like pairExaple : [job:student , job: teacher]
+
+
+#set will allow you to unique value
+names : !!set
+ ? ahsan
+ ? fazil
+ ? sakir
+ ? ragib
+
+
+#dictionary called !!omap
+
+dic : !!omap
+ - ahsan : 
+   name  : Ahsan ahmad
+   age : 20
+ - sakir : 
+   name  : sakir ahmad
+   age : 18 
+
+   #it look like dic : [ahsan : [name : Ahsan ahmad , age : 20] , sakir : [name : sakir ahmad , age : 18]]
+
+
+# Reusing some property using anchors
+
+linking : &chosse 
+  dislike : programming
+  like : coding 
+
+person1 : 
+ name : ahsan
+ <<: *chosse
+
+person2 : 
+ name : fazil
+ <<: *chosse
+
+person3 : n
+  name : aklakh
+ <<: *chosse
+ # look like  person3 : aklakh
+ #              dislike : programming
+ #              like : coding 

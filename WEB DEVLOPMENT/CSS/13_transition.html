@@ -1,0 +1,48 @@
+<!-- 
+transition-property: background-color, width;
+transition-duration: 3s;
+transition-delay: 2s;
+transition-timing-function: linear or ease-in or ease-out;//same speed start to end
+
+#shorthand
+  tarnsition : <property> <duration> <timing-function> <delay>
+
+#also
+transition: <property1> <duration for pro1> , <property2> <duration for pro2>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: ease-in;
+        transition-delay: 1s;
+      }
+
+      .hello {
+        margin-left: 1400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="yo">
+      click on me <br />
+      for transition
+    </div>
+
+    <script>
+      document.querySelector("#yo").addEventListener("click", () => {
+        document.querySelector("#yo").classList.toggle("hello");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!--
+ The HTML <head> element is a container for the following elements:
+ <title>  -- use for title of the web page
+ <style>  -- for css
+ <meta>   -- The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+ <link>   -- link other file to the web page
+ <script> -- <script> element is used to define client-side JavaScripts.
+ <base>   -- <base> element specifies the base URL and/or target for all relative URLs in a page
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#1-->
+        <title> 
+            Head
+        </title>
+
+        <!-- #2-->
+        <style> 
+            body {background-color: rgb(186, 237, 240);}
+            h1 {color: red;}
+            p {color: blue;}
+        </style>
+
+        <!--#3-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+        <!--#4-->
+        <link rel="stylesheet" href="mystyle.css">
+
+        <!--#5-->
+        <script class="tagcolor" style="color:mediumblue">>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            }
+            </script>
+        
+        <!--#6-->
+        <base href = "12_id.html">
+        
+
+    </head>
+
+    <body>
+        <h1 ></h1>
+
+    </body>
+</html>
+
+

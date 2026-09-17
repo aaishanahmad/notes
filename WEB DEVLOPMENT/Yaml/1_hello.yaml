@@ -1,0 +1,25 @@
+#comment
+#yaml is case-sensetive
+
+#key-value pair means varibale : value
+
+var: hello
+key: "value"
+name: "ahsan"
+1: "my roll number"
+
+#OR
+---
+{ var: "hello", key: "value" }
+--- #saprate document(object)
+#Lists
+fruites:
+  - apple
+  - graps
+  - mango
+  - banana
+# OR
+---
+fruites: [apple, grap, mango]
+---
+

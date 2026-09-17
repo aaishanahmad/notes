@@ -1,0 +1,33 @@
+<!-- 
+transform property applies a 2d or 3d transformation to an element like scale , rotate
+
+transform:rotate(180deg)
+transform:scale(2)
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transition: transform 1s, background-color 2s, all 2s;
+        background-image: url("./me.png");
+      }
+
+      div:hover {
+        transform: rotate(360deg) scale(2);
+        border-radius: 51%;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

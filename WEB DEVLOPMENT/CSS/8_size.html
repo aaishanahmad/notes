@@ -1,0 +1,91 @@
+<!-- 
+    There are more unit for size
+    1.px- related to devie size in pixel , if a device is 1920x1080 => 1 px = 1080/1920
+    2.em - unit relative to the  parent size ,example if parent element size 12px  => 2em = 2 *12px
+    3.rem - unit relative to the  root size ,example if root element size 12px  => 2rem = 2 *12px
+    4.vw - unit relative to device width in %.
+    5.vh - unit relative to device height in %.
+     6. % - unit relative to root element in %;
+
+     Note :
+     other property min-height,max-height , min-width & max-width use to set minumum height , minimum width , minimum height & maximum width
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .d0{
+            height:50vh ;
+            background-color: yellow;
+
+        }
+
+
+        .d1{
+            font-size: 24px;
+        }
+        .d2{
+            font-size:3em
+
+        }
+        .d3{
+           font-size: 24px;
+        }
+        .d4{
+            font-size:3rem;
+        }
+        .d5{
+            height:100px;
+            width:100px;
+            border: 2px solid black;
+        }
+        .d6{
+            height: 50%;
+            width :100%;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- example of vh , this is relative to device height in % -->
+    <div class="d0">
+
+
+    </div>
+    <!-- em example , this is  related to parent elment  -->
+     <div class="d1">
+         hello
+     </div>
+     <div class="d2">
+         world
+     </div>
+   
+
+
+    <!-- rem example this is related to root element -->
+    <div class="d3">
+        hello
+        <div class="d4">
+            world
+        </div>
+    </div>
+       <!-- example of % , this relation to root element size in % -->
+    <div class="d5">
+        
+        <div class="d6">
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!--
+ A  CSS selector is used to select an html element or elements for styling
+
+    1.Element selector like h1 , body
+    2. Id selector like #su 
+    3. Class selector like .class_name
+    4. Universal selector (selector all the element) use * for universal selector
+
+    NOTE: we can use group selector seprated by ','
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+       /* group selector */
+        h1,h3,.ku{
+             color:red;
+        }
+        /* id selector */
+        #pu{
+            color:aqua
+        }
+        
+        /* class selector */
+        .su{
+            color:hotpink
+        }
+        /* child selector */
+       div>h2{
+        color :yellow
+       }
+
+        /* Universal selector */
+       *{
+        color :purple;
+       }
+        
+    </style>
+
+</head>
+<body>
+ <div id = "pu">my name is pu</div>
+  <h1>i use h1 tag</h1>
+  <h3>i use h3 tag</h3>
+  <div class ="ku">
+    hello world
+    <h2>this is h2 tag under the div</h2>
+  </div>
+  
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!-- 
+    used to mainupulate the position of an element following are the posiible value.
+    -> static : defalut , top/bottom/left/right/z-index has no effect
+    -> relative:the top/bottom/right/left/z-index will now work otherwise the element is in the flow of document like static.
+    -> absolute : the element is removed from the flow & its ralatively positioned to its first non-static ancestor top/bottom etc works.
+    -> fixed : just like absolute except the element is posyinal relative to the browser window
+    -> sticky: the element is positional based on user,s scrolll position
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width:1530;
+            height:1300;
+        }
+        .box1{
+             
+             position:static;
+             width:400px;
+             height:300px;
+             background-color: rgb(211, 0, 0);
+             color:white;
+
+        }
+        .box2{
+             
+             position:relative;
+             width:120px;
+             height:110px;
+             background-color: rgb(0, 4, 211);
+             color:white;
+             bottom:0;
+             right:0;
+
+        }
+        .box3{
+            position:sticky;
+            background-color:rgb(255, 255, 0);
+            color:black;
+            width:100px;
+            height:100px;
+            font-size: 13px;
+            top:110px;
+            right:90px;
+
+
+        }
+
+      
+    </style>
+</head>
+<body >
+    <div class = "box1">
+      Notification
+      <div class="box2">
+        hello
+      </div>
+    </div>
+    <div class="box3">
+        NOTIFICATION:
+
+    </div>
+    
+</body>
+</html>
