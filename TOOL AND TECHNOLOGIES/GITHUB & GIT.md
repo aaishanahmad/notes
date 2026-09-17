@@ -136,7 +136,8 @@ User search finds users with an account on GitHub. You can also filter the resul
 
 - **git remote** : Lists all remote repositories that are associated with the current Git repository.
     
-- **git remote add "name" "url"** : Adds a new remote repository to the current Git repository.
+- **git remote add "name" "url"** :  short (nickname) for url(remote)
+- **git push  -u "name(ur shortname) "   "branch name"**: push branch to remote(github)
     
 - **git remote add "name" "url"** : Adds a new remote repository to the current Git repository.
     
