@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOOL AND TECHNOLOGIES/GITHUB & GIT.md",
+                "file": "NOTE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GITHUB & GIT"
+              "title": "NOTE"
             }
           }
         ]
@@ -170,8 +170,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9c13d49cc8247b08",
+  "active": "784b62770769ffca",
   "lastOpenFiles": [
+    "Untitled.md",
+    "NOTE.md",
+    "SEM 1/OT.md",
+    "SEM 1/ED.md",
+    "SEM 1/COA.md",
+    "SEM 1/MFCS.md",
+    "SEM 1/PYTHON.md",
+    "SEM 1/C.md",
+    "PYTHON/2.variable , data types and print().md",
+    "SEM 1",
+    "PYTHON/1.introduction.md",
+    "PYTHON/0.syllabus and resources.md",
+    "DSA/1.introduction.md",
+    "DSA/0.syllabus & resources.md",
+    "DSA/Algorithms/2.array.md",
+    "TOOL AND TECHNOLOGIES/GITHUB & GIT.md",
     "COMPILER DESIGN/1.introduction to compiler.md",
     "Excalidraw/Drawing 2026-09-17 14.17.16.excalidraw.md",
     "Excalidraw",
@@ -187,21 +203,6 @@
     "9. RUST.md",
     "SWIFT/12. SWIFT.md",
     "PYTHON/3. modules ,keywords , operators  , input().md",
-    "PYTHON/2.variable , data types and print().md",
-    "PYTHON/1.introduction.md",
-    "CPP/OOP.md",
-    "DEVOPS/KUBERNETES.md",
-    "DEVOPS/DOCKER.md",
-    "DEVOPS/DEVOPS.md",
-    "MATH FOR PROGRAMMER/MATH FOR PROGRAMMING.md",
-    "OS/0. syllabus and resources.md",
-    "NETWORKING/0.syllabus & resource.md",
-    "WEB DEVLOPMENT/Node js/3_express/node_modules/ms/license.md",
-    "COMPILER DESIGN/0.syllabus and resources.md",
-    "MATHMATICS/MATHMATICS.md",
-    "JAVA/6. class and object.md",
-    "JAVA/4. Array , String.md",
-    "JAVA/3. operator & control statement.md",
     "Pasted image 20250508013534.png",
     "Pasted image 20250508013505.png",
     "Pasted image 20250508013408.png",
@@ -216,7 +217,6 @@
     "SOFTWARE/BASICS/TOC/Untitled",
     "TOC",
     "COMPILER DESIGN",
-    "DSA/Algorithms",
-    "MOBILE APP DEVLOPMENT/ANDROID/dumb"
+    "DSA/Algorithms"
   ]
 }

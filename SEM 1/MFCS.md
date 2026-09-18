@@ -1,0 +1,110 @@
+- BOOK : Kenneth H. Rosen , discrete methmatics
+**MODULE 1 : SET THEORY , RELATIONS AND FUNCTION**
+- Set 
+  - operations on sets 
+  - venn diagrams
+  - laws of set theory 
+  - power sets
+- Relation
+  - cartesian products 
+  - properties of relations
+    - reflexive 
+    - symmetric 
+    - transitive 
+  - equivalence relation
+  - partial orderings
+  - hessa diagrams
+- Function
+  - one-one
+  - onto 
+  - bijective
+  - composition of function
+  - inverse function 
+- Equivalence class
+- Partial order relation 
+- Partion of a set 
+- Poset (partial order set)
+- Upper bound 
+- Lowwer bound
+- Maxima 
+- Minima
+- Graphical representation of Poset
+- Finite Set
+- Infinite Set
+- Uncountable
+- Countable
+- Contor diagonalisal
+- Computer Propotional Logic
+
+**MODULE 2 : MATHEMATICAL LOGIC AND PROOF TECHNIQUES**
+- Propostional Logic 
+  - propositions 
+  - truth table 
+  - tautologies 
+  - contradictions 
+  - logical equivalence
+- Predicate Logic
+  - quantifiers
+    - universal
+    - existential
+  - nested quantifiers
+  - rules of inference 
+- Proof Methods
+  - direct proof
+  - proof by contraposition 
+  - proof by contradiction
+  - mathmetical induction
+    - weak 
+    - strong
+
+**MODULE 3 : COMBINATORICS AND RECURRENCE RELATION**
+- Counting Principal
+  - sum rule
+  - product rule 
+  - permutation and combination 
+- Advance Counting
+  - pigeonhole principal 
+  - inclusion-exclusion principal
+  - bionomail theorem 
+- Recursion Relation
+  - formulating recurrence raltions 
+  - solving linear homogeneous and non-linear recurrence relations
+  - generating functions 
+
+**MODULE 4 : ALGEBRAIC STRUCTURES** 
+- Algebraic Systems 
+  - properties of binary operations 
+  - semi-group 
+  -  monoids
+- Groups
+  - groups 
+  - subgroups
+  - abelian groups
+  - cyclic groups 
+  - cosets 
+  - lagrange's theorem
+  - lattics
+- Lattices And Boolean Algebra
+  - posets 
+  - lattices as algebraic systems
+  - sub-lattices 
+  - boolean functions
+  - minimization of boolean expression 
+
+**MODULE 5 : GRAPH THEORY AND TREES**
+- Graph 
+  - basic definitions 
+  - directed/undirected graphs 
+  - degree of vertices
+  - path 
+  - cycles
+  - connected components  
+- Graph Properties
+  - eulerian and Hamiltonian paths/circuits
+  - graph coloring
+  - planar graphs
+- Trees 
+  - properties of trees 
+  - spanning trees
+  - rooted trees 
+  - binary trees
