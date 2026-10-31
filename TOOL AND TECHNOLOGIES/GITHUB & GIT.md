@@ -95,8 +95,10 @@ User search finds users with an account on GitHub. You can also filter the resul
 ---
 
 - **git config --global credential.username "user_name"** : cahnge credential (authore).
-- **git config --global user.email** : set email.
-- **git config --global user.name** : set name.
+- **git config --global user.emai "email"l** : set email.
+- **git config --global user.name "name"** :  set name.
+- `user.name` and `user.email` = Who wrote the code?
+- `credential.username` = Which account are you trying to authenticate a
 
 ---
 
