@@ -147,4 +147,4 @@ User search finds users with an account on GitHub. You can also filter the resul
     
 - **git fetch "remote"** : Fetches changes from the specified remote repository.
     
-- **git pull "remote" "branch"** : Fetches changes from the specified remote repository and merges them into the current branch .
+- **git pull "remote" "branch"** : Fetches changes from the specified remote repository and merges them into the current Branch.
