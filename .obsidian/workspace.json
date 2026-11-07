@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/3. CPP.md",
+                "file": "C/4.branching or control statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. CPP"
+              "title": "4.branching or control statement"
             }
           }
         ],
@@ -216,34 +216,34 @@
   },
   "active": "da793eec89230137",
   "lastOpenFiles": [
+    "C/5.pointer , array.md",
+    "C/7.function.md",
+    "C/4.branching or control statement.md",
+    "PYTHON/Web Scrapping.md",
+    "@ROADMAP/placement.md",
+    "PYTHON/9.virtual environment.md",
+    "PYTHON/8.excption handling.md",
+    "PYTHON/7.file I-O.md",
+    "PYTHON/6.class and object.md",
+    "PYTHON/5.function.md",
+    "PYTHON/4.control statement.md",
+    "PYTHON/3. modules ,keywords , operators  , input().md",
+    "PYTHON/2.variable , data types and print().md",
+    "PYTHON/1.introduction.md",
+    "PYTHON/$projects.md",
+    "PYTHON/0.syllabus and resources.md",
+    "C/3.data type , variable and input-output.md",
+    "CPP/3. CPP.md",
     "C/9.string.md",
     "C/10.dynamic memory allocation.md",
     "C/8.constant literal and macros.md",
-    "C/7.function.md",
     "C/6.structure , union , enum.md",
-    "C/5.pointer , array.md",
-    "C/4.branching or control statement.md",
-    "C/3.data type , variable and input-output.md",
     "C/2.token.md",
     "C/1.introduction.md",
     "C/0.syllabus and resource.md",
-    "@ROADMAP/placement.md",
     "@ROADMAP/acedmic.md",
-    "@ROADMAP/interest.md",
-    "@ROADMAP/Untitled.md",
-    "NOTE.md",
     "@ROADMAP",
-    "DSA/2.analysis of algorithm.md",
-    "TOOL AND TECHNOLOGIES/GITHUB & GIT.md",
     "protonvpn-stable-release_1.0.10_all.deb",
-    "upnotes.sh",
-    "JAVA/12.file handling.md",
-    "JAVA/10.exception handling.md",
-    "JAVA/2.variable , data types, wrapper class & I-O.md",
-    "JAVA/0.syllabus and resource.md",
-    "JAVA/6. class and object.md",
-    "JAVA/5.method.md",
-    "JAVA/4. Array , String.md",
-    "JAVA/3. operator & control statement.md"
+    "upnotes.sh"
   ]
 }
