@@ -27,8 +27,8 @@
               "state": {
                 "file": "@ROADMAP/placement.md"
               },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "placement"
             }
           },
           {
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/4.branching or control statement.md",
+                "file": "C/5.pointer , array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.branching or control statement"
+              "title": "5.pointer , array"
             }
           }
         ],
@@ -216,32 +216,36 @@
   },
   "active": "da793eec89230137",
   "lastOpenFiles": [
-    "C/5.pointer , array.md",
-    "C/7.function.md",
-    "C/4.branching or control statement.md",
+    "CPP/1.introduction.md",
+    "CPP/OOP.md",
+    "CPP/3. CPP.md",
+    "PYTHON/6.class and object.md",
+    "CPP/C sharp/7. C sharp.md",
     "PYTHON/Web Scrapping.md",
-    "@ROADMAP/placement.md",
     "PYTHON/9.virtual environment.md",
     "PYTHON/8.excption handling.md",
     "PYTHON/7.file I-O.md",
-    "PYTHON/6.class and object.md",
     "PYTHON/5.function.md",
     "PYTHON/4.control statement.md",
     "PYTHON/3. modules ,keywords , operators  , input().md",
     "PYTHON/2.variable , data types and print().md",
+    "C/1.introduction.md",
+    "Pasted image 20261108224613.tmp.png",
+    "Pasted image 20261108224613.png",
+    "Pasted image 20261108223559.png",
+    "_resource/Screenshot From 2026-11-08 17-58-33.png",
+    "@ROADMAP/placement.md",
+    "C/4.branching or control statement.md",
+    "C/5.pointer , array.md",
+    "C/7.function.md",
     "PYTHON/1.introduction.md",
     "PYTHON/$projects.md",
     "PYTHON/0.syllabus and resources.md",
     "C/3.data type , variable and input-output.md",
-    "CPP/3. CPP.md",
     "C/9.string.md",
     "C/10.dynamic memory allocation.md",
     "C/8.constant literal and macros.md",
     "C/6.structure , union , enum.md",
-    "C/2.token.md",
-    "C/1.introduction.md",
-    "C/0.syllabus and resource.md",
-    "@ROADMAP/acedmic.md",
     "@ROADMAP",
     "protonvpn-stable-release_1.0.10_all.deb",
     "upnotes.sh"
