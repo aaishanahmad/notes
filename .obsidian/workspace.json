@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c30b04a005a7f89",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "@ROADMAP/acedmic.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
             "id": "ae9fa11873827b9f",
             "type": "leaf",
             "state": {
@@ -37,16 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/5.pointer , array.md",
+                "file": "C/6. pointer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.pointer , array"
+              "title": "6. pointer"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,36 +204,44 @@
   },
   "active": "da793eec89230137",
   "lastOpenFiles": [
-    "CPP/1.introduction.md",
-    "CPP/OOP.md",
-    "CPP/3. CPP.md",
-    "PYTHON/6.class and object.md",
-    "CPP/C sharp/7. C sharp.md",
-    "PYTHON/Web Scrapping.md",
-    "PYTHON/9.virtual environment.md",
-    "PYTHON/8.excption handling.md",
-    "PYTHON/7.file I-O.md",
-    "PYTHON/5.function.md",
-    "PYTHON/4.control statement.md",
-    "PYTHON/3. modules ,keywords , operators  , input().md",
-    "PYTHON/2.variable , data types and print().md",
-    "C/1.introduction.md",
-    "Pasted image 20261108224613.tmp.png",
-    "Pasted image 20261108224613.png",
-    "Pasted image 20261108223559.png",
-    "_resource/Screenshot From 2026-11-08 17-58-33.png",
-    "@ROADMAP/placement.md",
-    "C/4.branching or control statement.md",
-    "C/5.pointer , array.md",
+    "Screenshot From 2026-11-14 16-09-43.png",
+    "Pasted image 20261114154129.png",
+    "Screenshot From 2026-11-14 15-28-40.png",
+    "Pasted image 20261114152343.png",
+    "C/9.constant literal and macros.md",
+    "C/8.structure , union , enum.md",
+    "C/6. pointer.md",
+    "C/5.array and string.md",
     "C/7.function.md",
-    "PYTHON/1.introduction.md",
-    "PYTHON/$projects.md",
-    "PYTHON/0.syllabus and resources.md",
     "C/3.data type , variable and input-output.md",
+    "Screenshot From 2026-11-14 15-03-34.png",
+    "Screenshot From 2026-11-14 14-39-34p.png",
+    "Screenshot From 2026-11-14 14-39-34.png",
+    "Pasted image 20261108223559.png",
+    "_resource/Screenshot From 2026-11-14 14-39-34.png",
+    "_resource/Screenshot From 2026-11-09 17-48-21.png",
+    "_resource/Screenshot From 2026-11-09 17-43-30.png",
+    "Screenshot From 2026-11-14 14-39-34.xcf",
     "C/9.string.md",
     "C/10.dynamic memory allocation.md",
-    "C/8.constant literal and macros.md",
-    "C/6.structure , union , enum.md",
+    "DSA/Algorithms/11. recursion.md",
+    "C/4.branching or control statement.md",
+    "DSA/7.tree.md",
+    "DSA/4.linked list.md",
+    "DSA/6.stack.md",
+    "DSA/5.queue.md",
+    "DSA/3.array.md",
+    "DSA/Introduction.md",
+    "JAVA/14.collection framwork.md",
+    "DSA/1.introduction.md",
+    "DSA/0.syllabus & resources.md",
+    "C/1.introduction.md",
+    "PYTHON/9.virtual environment.md",
+    "PYTHON/3. modules ,keywords , operators  , input().md",
+    "C/2.token.md",
+    "CPP/1.introduction.md",
+    "CPP/Untitled.md",
+    "CPP/STL",
     "@ROADMAP",
     "protonvpn-stable-release_1.0.10_all.deb",
     "upnotes.sh"

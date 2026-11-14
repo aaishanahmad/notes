@@ -1,5 +1,4 @@
 
-![[dsa1.png]]
 
 ## 1. Introduction to Data Structures and Algorithms
  - Overview of Data Structures and Algorithms
